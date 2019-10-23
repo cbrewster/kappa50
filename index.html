@@ -1,61 +1,100 @@
 <html>
-    <head>
-        <title>50 Years of Kappa</title>
+  <head>
+    <title>Celebrating 50 Years of Kappa</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css"/>
-        <script src="confetti.js"></script>
-    </head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="confetti.js"></script>
+  </head>
 
-    <body>
-        <canvas id="confetti-holder"></canvas>
-        <div class="container title">
-            <h1>50 Years of</h1>
-            <h1><span class="kappa">KΣT</span></h1>
-        </div>
+  <body>
+    <canvas id="confetti-holder"></canvas>
+    <div class="container title">
+      <h1>Celebrating 50 Years of</h1>
+      <h1><span class="kappa">KΣT</span></h1>
+    </div>
+    <div class="buttons">
+      <a
+        class="btn btn-primary btn-lg"
+        href="https://www.eventbrite.com/e/kappa50-homecoming-weekend-tickets-75200399419?aff=efbeventtix&fbclid=IwAR3cqFQjuhnwxY_pqvjbQWN3p57-5lNNvvbRM8oDvGKdHbUCBYxySG1IhVA"
+        >Get Tickets</a
+      >
+      <a
+        class="btn btn-primary btn-lg"
+        href="https://www.facebook.com/events/1298605700299048/"
+        >Facebook Event</a
+      >
+    </div>
+    <div class="schedule container">
+      <h1>Friday</h1>
+      <ul>
+        <li>
+          <h2>TopGolf</h2>
+          <span class="time">8PM - 12AM</span>
+          <p>An optional event for you to come catch up and hit some balls!</p>
+          <p>Food and golf included, it will be around $20</p>
+        </li>
+      </ul>
 
-        <div class="schedule container">
-            <h1>Friday</h1>
-            <ul>
-                <li>
-                    <h2>TopGolf</h2> <span class="time">8PM - 12AM</span>
-                    <p>An optional event for you to come catch up and hit some balls!</p>
-                    <p>Food and golf included, it will be around $20</p>
-                </li>
-            </ul>
+      <h1>Saturday</h1>
+      <ul>
+        <li>
+          <h2>Alumni Breakfast</h2>
+          <span class="time">8AM - 12AM(ish)</span>
+          <p>Free breakfast and glorious stories!</p>
+        </li>
 
-            <h1>Saturday</h1>
-            <ul>
-                <li>
-                    <h2>Alumni Breakfast</h2> <span class="time">8AM - 12AM(ish)</span>
-                    <p>Free breakfast and glorious stories!</p>
-                </li>
+        <li>
+          <h2>Parade</h2>
+          <span class="time">11 AM</span>
+          <p>Walk the loop with us to show your Panther Pride!</p>
+        </li>
 
-                <li>
-                    <h2>Parade</h2> <span class="time">11 AM</span>
-                    <p>Walk the loop with us to show your Panther Pride!</p>
-                </li>
+        <li>
+          <h2>Charity Fundraiser Lunch</h2>
+          <span class="time">12PM - 2PM</span>
+          <p>Location: TBD</p>
+          <p>
+            Family & friends invited to eat together and have a portion of the
+            money raised donated to a good cause!
+          </p>
+        </li>
 
-                <li>
-                    <h2>Charity Fundraiser Lunch</h2> <span class="time">12PM - 2PM</span>
-                    <p>Location: TBD</p>
-                    <p>Family & friends invited to eat together and have a portion of the money raised donated to a good cause!</p>
-                </li>
+        <li>
+          <h2>Banquet Dinner</h2>
+          <span class="time">6-9 (Get It?)</span>
+          <p>Edmond Church of Christ</p>
+          <p>
+            Catered food, speeches and pictures with members new & old. Special
+            Kappa giveaways showcasing our history!
+          </p>
+        </li>
+      </ul>
+    </div>
 
-                <li>
-                    <h2>Banquet Dinner</h2> <span class="time">6-9 (Get It?)</span>
-                    <p>Edmond Church of Christ</p>
-                    <p>Catered food, speeches and pictures with members new & old. Special Kappa giveaways showcasing our history!</p>
-                </li>
-
-            </ul>
-        </div>
-
-        <script>
-         var confettiSettings = {"target":"confetti-holder","max":"80","size":"1","animate":true,"props":["square","triangle","line"],"colors":[[253,225,106],[255,186,6]],"clock":"25","rotate":false,"width":"1680","height":"965"};
-         var confetti = new ConfettiGenerator(confettiSettings);
-         confetti.render();
-        </script>
-    </body>
+    <script>
+      var confettiSettings = {
+        target: "confetti-holder",
+        max: "80",
+        size: "1",
+        animate: true,
+        props: ["square", "triangle", "line"],
+        colors: [[253, 225, 106], [255, 186, 6]],
+        clock: "25",
+        rotate: false,
+        height: "965"
+      };
+      var confetti = new ConfettiGenerator(confettiSettings);
+      confetti.render();
+    </script>
+  </body>
 </html>
