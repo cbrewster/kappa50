@@ -58,3 +58,12 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.schedule a {
+  color: #ffba08;
+  text-decoration: underline;
+}
+
+.schedule a:hover {
+  color: #db9d00;
+}
