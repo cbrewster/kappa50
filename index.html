@@ -17,7 +17,10 @@
   </head>
 
   <body>
-    <canvas id="confetti-holder"></canvas>
+    <div class="confetti-wrapper">
+      <canvas id="confetti-holder"></canvas>
+    </div>
+
     <div class="container title">
       <h1>Celebrating 50 Years of</h1>
       <h1><span class="kappa">KΣT</span></h1>
@@ -35,6 +38,7 @@
       >
     </div>
     <div class="schedule container">
+      <h1 class="header">Schedule of Events</h1>
       <h1>Friday</h1>
       <ul>
         <li>
@@ -110,8 +114,7 @@
         props: ["square", "triangle", "line"],
         colors: [[253, 225, 106], [255, 186, 6]],
         clock: "25",
-        rotate: false,
-        height: "965"
+        rotate: false
       };
       var confetti = new ConfettiGenerator(confettiSettings);
       confetti.render();
